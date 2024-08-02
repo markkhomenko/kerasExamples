@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Championship Maker Page</title>
+        <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" > 
+        <script src="script.js"></script>
+        
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+
+        <div class="wallpaper"></div>
+    
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btm-menu"> <img class="menu" src="boton menu circulo.png" alt="">
+            </label>
+
+            <nav class="menu"> 
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Campeonatos</a></li>
+                    <li><a href="">Contactos</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        
+        <h1 class="titulo"> BIENVENIDO A CHAMPIONSHIP MAKER </h1>
+           
+        <h2 class="titulo_campeonato">Crear de campeonato</h2>
+        
+        <br/>
+        <br/>
+        <br/>
+        
+        <div id="divcampeonato">
+            <form id="form1" class=""> 
+               
+                <label for="campeonato_de" class="label1"> Campeonato de:</label>
+                <input type="text" name="campeonato_de" placeholder="Ej: Metegol" id="" class="input-50" required>
+                <br/>
+                <br/>
+                <label for="cant_jugadores" class="label1"> Cantidad de jugadores:</label>
+                <input type="text" name="cant_jugadores" placeholder="Ej: 4"class="inut-50" required>
+                <br/>
+                <br/>
+                <label for="cant_jugadores_por_equipo">Cantidad de jugadores por equipo:</label>
+                <input type="text" name="cant_jugadores_por_equipo" placeholder="Ej: 2" class="input-50" required>
+                <br/>
+                <br/>
+                <label for="tipo_campeonato" class="label1"> Tipo de campeonato:</label>
+                    <select id="opciones">
+                        <option value="Opciones">Seleccionar</option>
+                        <option value="eliminatorias">Eliminatoria</option>
+                        <option value="clasificatoria">Clasificatoria</option>
+                        <option value="campeonatoa">Campeonato</option>
+                    </select>
+                <br/>
+                <br/>
+                
+                
+            </form>
+            <button class ="botonsexy" onclick="submit(); return false;">Continuar</button>
+            
+        </div>
+
+        <div id="divlogo">
+            <img class="logo" src="logopag2.png" alt="logo">
+        </div>
+    </body>
+</html>
+    
